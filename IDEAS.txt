@@ -1,0 +1,17 @@
+NUEVAS IDEAS PARA EL PROYECTO FINAL
+PONER POR CATEGORIAS
+PONER FIXTURE DE DEPORTES
+NO ENFOCARSE TANTO EN EL SHOP DE LA PAGINA
+ATRAER AL PUBLICO DEPORTIVO PUBLICO ADULTO
+BOTON DE WHATSAPP
+<!-- utilizar las palabras claves y la descripcion desde la etiqueta META--!>
+
+
+contrasenia de 000webhost
+1Qd#fU^OSi5kO4dh#P5A
+
+
+para la entrega final: 3: links web host git pages y git hub
+
+media queries:
+480, 600, 1024

@@ -54,6 +54,7 @@ nav ul li a{
 nav{
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 
 }
 .padremain{
@@ -75,6 +76,7 @@ main article p{
     font-family: 'Oswald', sans-serif;
 }
 footer{
+    margin-top: 203px;
     display: flex;
     justify-content: center;
     background-color: black;
@@ -84,4 +86,54 @@ footer{
     text-align: center;
 
 }
-
+@media screen and (max-width:800px){
+    .padremain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 40px;
+        margin-bottom: 100px;
+    }
+    footer{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        color: blanchedalmond;
+        font-family: 'Oswald', sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+    .padremain{
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+        margin-bottom: 100px;
+    }
+}
+@media screen and (max-width:600px){
+    main article{
+        width:350px ;
+        text-align: center;
+        margin: 20px;
+        padding: 10px;
+        background-color: #1D40B5;
+        border: 10px solid black;
+    }
+    footer{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        color: blanchedalmond;
+        font-family: 'Oswald', sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+    .padremain{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        margin-bottom: 100px;
+    }
+}

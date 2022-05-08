@@ -6,5 +6,10 @@ footer{
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     text-align: center;
-
+    margin-top: 230px;
+}
+@media screen and (max-width:800px){
+    footer{
+        margin-top: 50px;
+    }
 }

@@ -5,6 +5,16 @@
 .navbar-brand {
     color: rgba(255, 255, 255, 0.9);
 }
+.btn-secondary {
+    color: #fff;
+    background-color: red;
+    border-color: blue;
+    margin: 5px;
+}
+.navbar-light .navbar-brand {
+    color: white;
+    font-size: 20px;
+}
 footer{
     display: flex;
     justify-content: center;

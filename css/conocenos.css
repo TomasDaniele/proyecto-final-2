@@ -8,6 +8,20 @@ footer{
     text-align: center;
     margin-top: 230px;
 }
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    background-color: #13177E;
+}
+.navbar-light .navbar-brand {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+}
 @media screen and (max-width:800px){
     footer{
         margin-top: 50px;

@@ -6,7 +6,17 @@ footer{
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     text-align: center;
-    margin-top: 230px;
+    margin-top: 10px;
+}
+.row{
+    background-color: #A01721;
+}
+.card{
+    color: white;
+    background-color: #13177E;
+}
+img.card-img-top{
+    margin-top: 10px;
 }
 .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
     display: flex;
@@ -17,10 +27,23 @@ footer{
     font-family: 'Oswald', sans-serif;
 }
 h1{
+    color: white;
+    text-align: center;
     font-family: 'Oswald', sans-serif;
+    background-color: #A01721;
 }
 p{
     font-family: 'Oswald', sans-serif;
+}
+article iframe {
+    width: 900px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #13177E;
+}
+article{
+    display: flex;
+    justify-content: center;
 }
 @media screen and (max-width:800px){
     footer{

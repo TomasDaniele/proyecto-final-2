@@ -37,6 +37,7 @@ h1 a{
 nav ul{
     margin-top: 40px;
 }
+
 nav ul li {
     font-family: 'Oswald', sans-serif;
     list-style: none;
@@ -54,6 +55,10 @@ nav ul li {
 nav ul li a{
     color: white;
     text-decoration: none;
+}
+nav ul li:hover{
+    background-color: grey;
+    transform: scale(1.5);
 }
 nav{
     display: flex;
@@ -104,7 +109,7 @@ footer{
         width: 600px;
         margin: 20px;
         padding: 10px;
-        background-color: #1D40B5;
+        background-color: #13177E;
         border: 10px solid black;
     }
     footer{
@@ -130,7 +135,7 @@ footer{
         text-align: center;
         margin: 20px;
         padding: 10px;
-        background-color: #1D40B5;
+        background-color: #13177E;
         border: 10px solid black;
     }
     footer{

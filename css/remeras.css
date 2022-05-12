@@ -1,5 +1,5 @@
 .navbar{
-    background-color:#181733  ;
+    background-color:#A01721  ;
     color: white;
 }
 .navbar-brand {
@@ -7,8 +7,8 @@
 }
 .btn-secondary {
     color: #fff;
-    background-color: #A01721;
-    border-color: #13177E;
+    background-color: #181733;
+    border-color: #A01721;
     margin: 5px;
 }
 .navbar-light .navbar-brand {

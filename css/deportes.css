@@ -20,6 +20,7 @@ header h1 a{
     color: white;
     text-decoration: none;
     text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 .container-img{
     width: 100%;
@@ -67,6 +68,9 @@ footer{
     }
     .container-img .box-img:nth-child(1){
         grid-column-start: span 1;
+    }
+    h1{
+        text-align: center;
     }
 }
 @media screen and (max-width:600px){

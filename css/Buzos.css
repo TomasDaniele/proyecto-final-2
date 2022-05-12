@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #181733;
+}
+header h1 a{
+    display: flex;
+    justify-content:center ;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    background-color: #A01721;
+    text-decoration: none;
+    padding: 10px;
+}
+main section .img-container1 div img{
+    margin: 20px;
+    width: 400px;
+    height: 300px;
+}
+main section .img-container1{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+}
+main section .img-container2{
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+}
+main section .img-container2 div img{
+    margin: 20px;
+    width: 400px;
+    height: 300px;
+}
+main section{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+article .ofertas-h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+    background-color: #A01721;
+    color: white;
+}
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: blanchedalmond;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}

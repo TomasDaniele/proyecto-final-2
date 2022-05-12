@@ -85,8 +85,19 @@ main article p{
     color: white;
     font-family: 'Oswald', sans-serif;
 }
+.redes .img-container div img{
+    width: 90px;
+}
+.redes .img-container{
+    background-color:#A01721 ;
+    display: flex;
+    justify-content: center;
+}
+.redes .img-container div{
+    margin: 5px;
+}
 footer{
-    margin-top: 300px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     background-color: black;
@@ -103,6 +114,10 @@ footer{
         justify-content: center;
         margin: 40px;
         margin-bottom: 100px;
+    }
+    .padremain article{
+        display: flex;
+        justify-content: center;
     }
     main article{
         text-align: center;
@@ -127,6 +142,9 @@ footer{
         justify-content: center;
         margin: 40px;
         margin-bottom: 100px;
+    }
+    .redes{
+        margin-bottom: 70px;
     }
 }
 @media screen and (max-width:1024px){
